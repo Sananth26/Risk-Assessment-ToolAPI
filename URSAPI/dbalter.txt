@@ -1,0 +1,98 @@
+﻿Scaffold-DbContext "Server=.;Database=dbURS;Uid=sa;Pwd=india@123;Trusted_Connection=false;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -f
+
+ optionsBuilder.UseSqlServer("Server=.;Database=dbURS;Uid=sa;Pwd=india@123;Trusted_Connection=false;");
+     //  optionsBuilder.UseSqlServer(@"Server=DESKTOP-3Q8POA5\VEEAMSQL2016; Database=dbURS;Uid=firewall;Pwd=india@123;Trusted_Connection=false;");
+	 Convert.ToString( (JsonConvert.SerializeObject(input.userlist)))
+
+	 https://stackoverflow.com/questions/45796776/get-connectionstring-from-appsettings-json-instead-of-being-hardcoded-in-net-co
+
+	 Alter table category add  IsActive varchar(50)
+Alter table maincategory add IsActive varchar(50)
+
+	 Alter table [user] alter column mobile_number varchar(100)
+
+	 	 Alter table requestForm add IsEditing bit default 0 
+Alter table requestform add EditorId bigint default 0 
+Alter table requestform Add Editortimeon datetime 
+ --Alter table requestForm alter column peerReviewId varchar(max)
+
+
+	    Alter table requestform Add LastUpdatedBy bigint default 0
+ Alter table requestform Add LastModifiedDate bigint default 0
+
+	 Alter table [user] add Roles varchar(1000) default ''
+	  Alter table RequestForm Add peerReviewId bigint 
+	 Alter table RequestForm Add Attachment nvarchar(max) default null
+	  Alter table requestForm Add riskandRankDetails nvarchar(max) default ''
+	  Alter table RequestForm add businessOwners varchar(500) default ''
+      Alter table requestform add itOwners varchar(500) default ''
+
+	  modelBuilder.Entity<UserRoles>(entity =>
+            {
+                entity.ToTable("User_Roles");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.UserId).HasColumnName("user_id");
+
+                entity.Property(e => e.RoleId).HasColumnName("role_id");
+            });
+
+			 public virtual DbSet<UserRoles> UserRoles { get; set; }
+
+
+Alter table requestform Add Remarks varchar(500) default null
+ Alter table RequestForm Add RequestSno varchar(50)
+Alter table requestform Add UserId bigint default 0
+
+  Alter table [user] add corporateid varchar(50) Default''  not null
+
+  
+CREATE TABLE [dbo].[RequestLevel](
+	[id] [bigint] IDENTITY(1,1) NOT NULL,
+	[requestId] [bigint] NOT NULL,
+	[levelId] [bigint] NOT NULL,
+	[userId] [bigint] NOT NULL,
+	[status] [varchar](50) NULL,
+	[updateDate] [datetime] NOT NULL,
+ CONSTRAINT [PK_RequestLevel] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+  Alter table category add HeaderNumber bigint default 0 
+
+Alter table SubCategory add QuestionNumber varchar(50) default null
+  remove primarykey column in user_roles role_id
+
+  CREATE TABLE  MainCategory (
+  id bigint identity (1,1)primary key ,
+  MainCategoryName varchar(500) NOT NULL,
+  created_by bigint NOT NULL,
+  created_time datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  last_updated_by bigint NOT NULL,
+  last_updated_time datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ,
+  
+ )
+   CREATE TABLE  Category (
+  Id bigint identity (1,1)primary key ,
+  Question varchar(500) NOT NULL,
+  MainCategoryId bigint not null,
+  created_by bigint NOT NULL,
+  created_time datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  last_updated_by bigint NOT NULL,
+  last_updated_time datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ,
+  ) 
+
+ CREATE TABLE  SubCategory (
+  Id bigint identity (1,1)primary key ,
+  Risk varchar(500) NOT NULL,
+  MainCategoryId  bigint not null,
+  CategoryId  bigint not null,
+  QuestionandExplanation nvarchar(max),
+  created_by bigint NOT NULL,
+  created_time datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  last_updated_by bigint NOT NULL,
+  last_updated_time datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ,
+  )

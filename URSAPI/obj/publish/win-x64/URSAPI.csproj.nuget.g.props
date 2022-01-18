@@ -1,0 +1,881 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">D:\Thiru\Firewalldocument\api\URS_API\URSAPI\obj\publish\win-x64\project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Veera Konda Reddy Ka\.nuget\packages\;C:\Microsoft\Xamarin\NuGet\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.9.3</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Alcatel.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Alcatel.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Alcatel.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Alcatel.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Amazon.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Amazon.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Amazon.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Amazon.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\AmazonDevices.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\AmazonDevices.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\AmazonDevices.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\AmazonDevices.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Android.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Android.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Android.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Android.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\AndroidDeviceOverrides.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\AndroidDeviceOverrides.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\AndroidDeviceOverrides.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\AndroidDeviceOverrides.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Anonymized.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Anonymized.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Anonymized.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Anonymized.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Apple.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Apple.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Apple.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Apple.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\AppleTypes.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\AppleTypes.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\AppleTypes.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\AppleTypes.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\AppleTypesBasic.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\AppleTypesBasic.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\AppleTypesBasic.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\AppleTypesBasic.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\AppleWebview.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\AppleWebview.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\AppleWebview.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\AppleWebview.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Apps.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Apps.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Apps.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Apps.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Asus.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Asus.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Asus.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Asus.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Bada.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Bada.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Bada.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Bada.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\BlackBerry.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\BlackBerry.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\BlackBerry.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\BlackBerry.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\BrokenUseragents.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\BrokenUseragents.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\BrokenUseragents.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\BrokenUseragents.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\CPUTypes.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\CPUTypes.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\CPUTypes.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\CPUTypes.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Cubot.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Cubot.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Cubot.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Cubot.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\EMailClients.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\EMailClients.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\EMailClients.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\EMailClients.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Facebook-OsMeta.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Facebook-OsMeta.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Facebook-OsMeta.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Facebook-OsMeta.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Facebook.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Facebook.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Facebook.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Facebook.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\GameConsoles.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\GameConsoles.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\GameConsoles.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\GameConsoles.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\GeckoFirefox.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\GeckoFirefox.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\GeckoFirefox.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\GeckoFirefox.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\GoannaPaleMoon.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\GoannaPaleMoon.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\GoannaPaleMoon.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\GoannaPaleMoon.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\GoogleChrome.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\GoogleChrome.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\GoogleChrome.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\GoogleChrome.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\GoogleChrome70.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\GoogleChrome70.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\GoogleChrome70.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\GoogleChrome70.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\GoogleFavicon.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\GoogleFavicon.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\GoogleFavicon.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\GoogleFavicon.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\GooglePixel.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\GooglePixel.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\GooglePixel.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\GooglePixel.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Hackers-SQLInjections.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Hackers-SQLInjections.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Hackers-SQLInjections.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Hackers-SQLInjections.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Hackers.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Hackers.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Hackers.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Hackers.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Huawei.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Huawei.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Huawei.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Huawei.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\ISOLanguageCode-tests.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\ISOLanguageCode-tests.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\ISOLanguageCode-tests.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\ISOLanguageCode-tests.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\ISOLanguageCode.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\ISOLanguageCode.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\ISOLanguageCode.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\ISOLanguageCode.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\KaiOS.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\KaiOS.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\KaiOS.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\KaiOS.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Konqueror.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Konqueror.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Konqueror.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Konqueror.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\LG.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\LG.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\LG.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\LG.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Lenovo-Tests.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Lenovo-Tests.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Lenovo-Tests.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Lenovo-Tests.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Linux.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Linux.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Linux.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Linux.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\MSEdge.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\MSEdge.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\MSEdge.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\MSEdge.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\MSInternetExplorer.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\MSInternetExplorer.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\MSInternetExplorer.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\MSInternetExplorer.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Maxthon.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Maxthon.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Maxthon.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Maxthon.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Meizu.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Meizu.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Meizu.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Meizu.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Mobile.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Mobile.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Mobile.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Mobile.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\MobileBrand-rules.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\MobileBrand-rules.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\MobileBrand-rules.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\MobileBrand-rules.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\MobileBrand-tests.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\MobileBrand-tests.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\MobileBrand-tests.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\MobileBrand-tests.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\MobileBrands.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\MobileBrands.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\MobileBrands.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\MobileBrands.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\MobileBrowser-tests.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\MobileBrowser-tests.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\MobileBrowser-tests.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\MobileBrowser-tests.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Mozilla-Testcases.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Mozilla-Testcases.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Mozilla-Testcases.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Mozilla-Testcases.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Nokia.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Nokia.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Nokia.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Nokia.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Opera.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Opera.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Opera.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Opera.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\OperatingSystemDeviceNames.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\OperatingSystemDeviceNames.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\OperatingSystemDeviceNames.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\OperatingSystemDeviceNames.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Oppo.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Oppo.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Oppo.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Oppo.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\OtherOS.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\OtherOS.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\OtherOS.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\OtherOS.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Otter.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Otter.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Otter.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Otter.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Robot-Imitators.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Robot-Imitators.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Robot-Imitators.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Robot-Imitators.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\RobotBaseRules.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\RobotBaseRules.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\RobotBaseRules.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\RobotBaseRules.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Robots-Bing.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Robots-Bing.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Robots-Bing.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Robots-Bing.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Robots-Google.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Robots-Google.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Robots-Google.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Robots-Google.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Robots-PriceSpiders.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Robots-PriceSpiders.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Robots-PriceSpiders.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Robots-PriceSpiders.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Robots.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Robots.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Robots.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Robots.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Safari.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Safari.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Safari.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Safari.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Samsung.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Samsung.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Samsung.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Samsung.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\SecurityFlag.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\SecurityFlag.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\SecurityFlag.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\SecurityFlag.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\SettopBox.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\SettopBox.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\SettopBox.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\SettopBox.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Sony.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Sony.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Sony.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Sony.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\SpecialBrowsers.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\SpecialBrowsers.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\SpecialBrowsers.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\SpecialBrowsers.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\TV.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\TV.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\TV.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\TV.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Tencent.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Tencent.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Tencent.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Tencent.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\URL.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\URL.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\URL.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\URL.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\UUID.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\UUID.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\UUID.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\UUID.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Ubuntu-18.10-tests.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Ubuntu-18.10-tests.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Ubuntu-18.10-tests.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Ubuntu-18.10-tests.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Ubuntu-tests.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Ubuntu-tests.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Ubuntu-tests.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Ubuntu-tests.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Ubuntu.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Ubuntu.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Ubuntu.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Ubuntu.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\UbuntuVersionLookups.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\UbuntuVersionLookups.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\UbuntuVersionLookups.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\UbuntuVersionLookups.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Vodafone.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Vodafone.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Vodafone.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Vodafone.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Watches.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Watches.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Watches.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Watches.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Wiko.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Wiko.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Wiko.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Wiko.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Windows.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Windows.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Windows.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Windows.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\WindowsCE.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\WindowsCE.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\WindowsCE.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\WindowsCE.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\WindowsDesktopLookups.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\WindowsDesktopLookups.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\WindowsDesktopLookups.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\WindowsDesktopLookups.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\WindowsOEM-tests.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\WindowsOEM-tests.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\WindowsOEM-tests.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\WindowsOEM-tests.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\WindowsOEMCodes.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\WindowsOEMCodes.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\WindowsOEMCodes.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\WindowsOEMCodes.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\WindowsPhone.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\WindowsPhone.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\WindowsPhone.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\WindowsPhone.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\WindowsPhoneLookups.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\WindowsPhoneLookups.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\WindowsPhoneLookups.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\WindowsPhoneLookups.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Xiaomi.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\Xiaomi.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\Xiaomi.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\Xiaomi.yaml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\eBook.yaml" Condition="Exists('$(NuGetPackageRoot)orbintsoft.yauaa.netstandard\5.13.1\contentFiles\any\netstandard2.0\YamlResources\UserAgents\eBook.yaml')">
+      <NuGetPackageId>OrbintSoft.Yauaa.NetStandard</NuGetPackageId>
+      <NuGetPackageVersion>5.13.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>YamlResources\UserAgents\eBook.yaml</TargetPath>
+      <DestinationSubDirectory>YamlResources\UserAgents\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>YamlResources\UserAgents\eBook.yaml</Link>
+    </Content>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.netcore.app\2.2.8\build\netcoreapp2.2\Microsoft.NETCore.App.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.app\2.2.8\build\netcoreapp2.2\Microsoft.NETCore.App.props')" />
+    <Import Project="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.fileproviders.embedded\2.2.0\build\netstandard2.0\Microsoft.Extensions.FileProviders.Embedded.props" Condition="Exists('C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.fileproviders.embedded\2.2.0\build\netstandard2.0\Microsoft.Extensions.FileProviders.Embedded.props')" />
+    <Import Project="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration.usersecrets\2.2.0\build\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration.usersecrets\2.2.0\build\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\2.2.6\build\netcoreapp2.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\2.2.6\build\netcoreapp2.0\Microsoft.EntityFrameworkCore.Design.props')" />
+    <Import Project="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.mvc.razor.extensions\2.2.0\build\netstandard2.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.props" Condition="Exists('C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.mvc.razor.extensions\2.2.0\build\netstandard2.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.props')" />
+    <Import Project="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.razor.design\2.2.0\build\netstandard2.0\Microsoft.AspNetCore.Razor.Design.props" Condition="Exists('C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.razor.design\2.2.0\build\netstandard2.0\Microsoft.AspNetCore.Razor.Design.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.app\2.2.8\build\netcoreapp2.2\Microsoft.AspNetCore.App.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.app\2.2.8\build\netcoreapp2.2\Microsoft.AspNetCore.App.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\Veera Konda Reddy Ka\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\Veera Konda Reddy Ka\.nuget\packages\microsoft.entityframeworkcore.tools\2.2.6</PkgMicrosoft_EntityFrameworkCore_Tools>
+    <PkgMicrosoft_AspNetCore_Razor_Design Condition=" '$(PkgMicrosoft_AspNetCore_Razor_Design)' == '' ">C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.razor.design\2.2.0</PkgMicrosoft_AspNetCore_Razor_Design>
+  </PropertyGroup>
+</Project>
